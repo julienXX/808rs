@@ -1,0 +1,8 @@
+[package]
+name = "808rs"
+version = "0.1.0"
+authors = ["Julien Blanchard <julien@sideburns.eu>"]
+
+[dependencies]
+ears = { git = "https://github.com/jhasse/ears" }
+nix = "0.5.0"

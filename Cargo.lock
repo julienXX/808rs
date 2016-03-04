@@ -1,0 +1,35 @@
+[root]
+name = "808rs"
+version = "0.1.0"
+dependencies = [
+ "ears 0.3.4 (git+https://github.com/jhasse/ears)",
+ "nix 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "bitflags"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "ears"
+version = "0.3.4"
+source = "git+https://github.com/jhasse/ears#5d85dd4dae566e7222c3a6e879e0da46f9e79b28"
+dependencies = [
+ "libc 0.2.7 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "libc"
+version = "0.2.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "nix"
+version = "0.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "bitflags 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "libc 0.2.7 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
